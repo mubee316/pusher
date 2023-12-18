@@ -1,0 +1,238 @@
+
+header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    border-bottom: 2px solid #ccc;
+    background-color:rgba(245, 248, 250, 1);
+    ;
+}
+.head{
+    text-align: end;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color:rgba(245, 248, 250, 1);
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-family: 'Lato', sans-serif;
+    /* display: flex;
+    flex-direction: column; */
+}
+.first{
+    width: 580px;
+height: 795px;
+margin-top: 186px;
+margin-left: 262px;
+/* margin-left: 262px; */
+border: 2px solid;
+background: rgba(255, 255, 255, 1);
+border: none;
+box-shadow: 0px 4px 50px 0px hsla(222, 68%, 4%, 0.1);
+
+
+}
+.second{
+    width: 312px;
+height: 795px;
+margin-top: 186px;
+border:2px solid;
+border-radius: 0px, 6px, 6px, 0px;
+background: rgba(17, 121, 191, 1);
+
+}
+h4{
+    font-size: 30px;
+    margin-left: 30px;
+  margin-top: 50px;
+}
+/* this is for the number */
+.circle, #mark{
+    border-radius: 35px;
+    border: 1px solid rgba(84, 139, 197, 1);
+    padding: 0px 5px;
+    display: inline-block;
+    color:  rgba(84, 139, 197, 1);
+    ;
+}
+.Number{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+   
+}
+#pp{
+    font-size: 18px;
+}
+#name{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+#last{
+    margin-left: 30px;
+}
+.email{
+    margin-left: 30px;
+
+}
+#firstname,#lastname{
+    width: 227px;
+    height: 36px;
+    border-radius: 6px;
+}
+#email{
+    width: 370px;
+    height: 36px;
+    border-radius: 6px;
+}
+#bord{
+    border-top: 1px solid rgba(245, 247, 250, 1);
+    ;
+    border-bottom: 1px solid rgba(245, 247, 250, 1);
+    height: 221px;
+}
+/* this is for the card */
+      
+.credit-card {
+  padding-inline: 48.5px;
+  padding-block-end: 41px;
+
+  padding-left: 30px;
+
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+}
+
+.card-details .card-number {
+  width: 270px;
+height: 36px;
+border-radius: 6px;
+}
+
+.card-details .card-date {
+  width: 90px;
+  height: 36px;
+}
+
+.card-details .card-cvc {
+  width: 110px;
+  height: 36px;
+  border-radius: 6px;
+}
+.payout{
+    width: 483px;
+height: 52px;
+background: rgba(3, 142, 125, 1);
+margin-left: 30px;
+border-radius: 6px;
+}
+.Need{
+    font-weight: bolder;
+}
+   #text{
+    text-align: center;
+    font-size: 14px;
+   }
+   .text{
+    text-decoration: underline;
+   }
+   .second-border{
+    border-top: 1px solid rgba(245, 247, 250, 1);
+    border-bottom: 1px solid rgba(245, 247, 250, 1);
+    margin-top: 20px;
+    
+   }
+   #support{
+    margin-left: -165px;
+ 
+   }
+   footer{
+    margin-left: 270px;
+    width: 92px;
+    height: 20.1px;
+   }
+   .second{
+    border: none;
+    box-shadow: 0px 4px 50px 0px hsla(222, 68%, 4%, 0.1);
+        /* font-family: 'Lato', sans-serif; */
+      
+    
+   
+   }
+   .nine{
+    /* font-size: 40px; */
+    height:  50px;
+    font-size: 60px;
+        font-family: 'Lato', sans-serif;
+        font-weight:normal
+      
+      
+   }
+   input{
+    border: none;
+    background-color: rgba(237, 239, 242, 1);
+    
+   }
+   pre{
+    font-size: larger;
+   }
+   .auto, .agent{
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+   #second{
+    margin-left: 50px;
+    color: white;
+   }
+   .flex{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    /* display: flex;
+    flex-direction: column; */
+   }
+  
+   .kirk{
+    margin-left: -80px;
+   }
+ 
+
+   #mark{
+    border: 3px solid;
+    border-color: whitesmoke;
+   }
+      
+  main{
+    border-bottom: 6px solid lightblue;
+    width: 70%;
+  }
+  #bro{
+    border-bottom: 3px solid lightblue;
+  }
+  .last-border{
+    border-bottom: 3px solid lightblue;
+    width: 90%;
+  }
+  .acc{
+    border: 2px solid;
+    border-radius: 6px ;
+    width: 91px;
+    height: 40px;
+  }
+    /*border-radius: 35px;
+    border: 3px solid rgba(84, 139, 197, 1);
+    border-radius: 50%;
+    
+    padding: 2px 4px;
+   } */
+   /* .agent{
+    font-style: italic;
+   } */
